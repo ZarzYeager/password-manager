@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pengelola Sandi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔒 Pengelola Sandi Aplikasi</h1>
+    <form id="passwordForm">
+      <div class="form-group">
+        <label for="appName">Nama Aplikasi</label>
+        <input type="text" id="appName" placeholder="Masukkan nama aplikasi" required>
+      </div>
+      <div class="form-group">
+        <label for="appPassword">Kata Sandi</label>
+        <input type="password" id="appPassword" placeholder="Masukkan kata sandi" required>
+      </div>
+      <button type="submit" class="btn">Simpan Sandi</button>
+    </form>
+
+    <h2>📋 Daftar Sandi</h2>
+    <ul id="passwordList" class="password-list">
+      <!-- Daftar sandi akan muncul di sini -->
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

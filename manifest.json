@@ -1,0 +1,20 @@
+{
+  "name": "Pengelola Sandi",
+  "short_name": "SandiApp",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#2575fc",
+  "theme_color": "#6a11cb",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-large.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
